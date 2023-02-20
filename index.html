@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <div class="image">
+
+                <!-- <img src="background.jpg" alt="" width="110%" height="700px"> -->
+            </div>
+            <div class="logo">
+                <h1>Temperature Converter</h1>
+                <hr size="4px" color="red">
+            </div>
+            <div class="heading">
+                <div>
+                    <h1>Temperature</h1>
+                </div>
+
+            </div>
+            <form action="">
+                <div class="text-area">
+
+                    <div>
+                        <input type="number" id="celsius" placeholder="Temperature in Degree">
+                    </div>
+
+                    <div>
+                        <select name="unit" id="unit">
+                            <option value="Choose a unit">Choose a unit</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="Celsius">Celsius</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="heading_result">
+                    <div>
+                        <h1>Result</h1>
+                    </div>
+                </div>
+                <div class="result">
+                    <input type="text" id="fahrenheit" placeholder="Result" readonly>
+                </div>
+
+                <div class="button">
+
+                    <div>
+                        <input type="button" value="Convert" onclick="convert()" id="button1">
+                    </div>
+                    <div>
+                        <input type="reset" id="button1">
+                    </div>
+
+
+                </div>
+
+        </div>
+        </form>
+
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
